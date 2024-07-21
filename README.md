@@ -19,6 +19,7 @@ Introduction
 
 This repository is curated by Chandresh Patle to help you get started with software testing projects. It covers a variety of testing methodologies and tools, providing you with a solid foundation in both manual and automation testing.
 Manual Testing Projects
+
 Project 1: E-commerce Website Testing
 
     Objective: To test the functionality, usability, and security of an e-commerce website.
