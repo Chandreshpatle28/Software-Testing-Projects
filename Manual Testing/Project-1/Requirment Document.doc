@@ -1,0 +1,196 @@
+Requirement Document for OpenCart E-commerce Project
+Project Overview
+
+Project Name: OpenCart Application - Project #1
+
+Objective:
+To develop a user-friendly and secure online shopping platform using OpenCart, an open-source e-commerce platform. The application will include features such as user registration and login, product catalog, shopping cart, checkout, payments gateway integration, and order management. The target audience is customers looking to purchase a wide variety of products online.
+
+Goals:
+
+    Provide a seamless user experience.
+    Ensure the security of sensitive customer information.
+    Allow customers to browse, purchase, and track their orders.
+
+Table of Contents
+
+    Requirements
+    User Stories
+    Acceptance Criteria
+    Design Mockups
+    Test Cases
+    Links
+
+Requirements
+Login
+
+Description: Users should be able to create an account and log in to the system.
+Priority: High
+Acceptance Criteria:
+
+    User can access the login page from the homepage.
+    User can enter their credentials and click the "login" button.
+    User is redirected to their account dashboard upon successful login.
+
+Registration
+
+Description: Users should be able to register for a new account.
+Priority: High
+Acceptance Criteria:
+
+    User can access the registration page from the homepage.
+    User can enter their details (name, email, password, etc.) and click the "register" button.
+    User is redirected to their account dashboard upon successful registration.
+
+Add to Cart
+
+Description: Users should be able to add products to their cart.
+Priority: High
+Acceptance Criteria:
+
+    User can click the "Add to Cart" button on a product page.
+    The product is added to the user's cart.
+    User can view their cart and the products they have added.
+
+Checkout
+
+Description: Users should be able to complete a purchase.
+Priority: High
+Acceptance Criteria:
+
+    User can click the "Checkout" button from their cart page.
+    User can enter their shipping and billing information.
+    User can choose a payment method and complete the transaction.
+
+Payment Gateway
+
+Description: The system should integrate with a payment gateway.
+Priority: High
+Acceptance Criteria:
+
+    User can choose from a list of supported payment methods during checkout.
+    User's payment information is securely transmitted to the payment gateway for processing.
+    User receives a confirmation of their payment upon successful processing.
+
+Orders
+
+Description: Users should be able to view their order history.
+Priority: Medium
+Acceptance Criteria:
+
+    User can access their order history from their account dashboard.
+    User can view details about their past orders (date, products purchased, total cost, etc.).
+
+User Stories
+Login
+
+    As a new user, I want to be able to create a new account and log in to the platform.
+    As an existing user, I want to be able to easily access my account by entering my login credentials.
+
+Registration
+
+    As a new user, I want to be able to easily create a new account and register for the platform.
+    As an existing user, I want to be able to update my account information and manage my preferences.
+
+Add to Cart
+
+    As a customer, I want to be able to easily add products to my cart and view my cart.
+    As a customer, I want to be able to easily manage the contents of my cart.
+
+Checkout
+
+    As a customer, I want to be able to easily complete my purchase and provide my payment information.
+    As a customer, I want to be able to view my order summary and confirm my purchase.
+
+Payment Gateway
+
+    As a customer, I want to be able to choose from a variety of payment methods and securely enter my payment information.
+    As a platform, we want to ensure the security of customer payment information and provide a seamless payment experience.
+
+Orders
+
+    As a customer, I want to be able to view my order history and track the status of my orders.
+    As a platform, we want to be able to manage and fulfill customer orders efficiently.
+
+Acceptance Criteria
+Login
+
+    User can access the login page from the homepage.
+    User can enter their credentials and click the "login" button.
+    User is redirected to their account dashboard upon successful login.
+
+Registration
+
+    User can access the registration page from the homepage.
+    User can enter their details (name, email, password, etc.) and click the "register" button.
+    User is redirected to their account dashboard upon successful registration.
+
+Add to Cart
+
+    User can click the "Add to Cart" button on a product page.
+    The product is added to the user's cart.
+    User can view their cart and the products they have added.
+
+Checkout
+
+    User can click the "Checkout" button from their cart page.
+    User can enter their shipping and billing information.
+    User can choose a payment method and complete the transaction.
+
+Payment Gateway
+
+    User can choose from a list of supported payment methods during checkout.
+    User's payment information is securely transmitted to the payment gateway for processing.
+    User receives a confirmation of their payment upon successful processing.
+
+Orders
+
+    User can access their order history from their account dashboard.
+    User can view details about their past orders (date, products purchased, total cost, etc.).
+
+Design Mockups
+
+Design mockups provide a visual representation of the pages and features to ensure clarity and alignment with the development team.
+
+    Login Page Design Mockup
+    Registration Page Design Mockup
+    Product Page Design Mockup with Add to Cart Button
+    Cart Page Design Mockup
+    Checkout Page Design Mockup
+
+Test Cases
+Login
+
+    Verify that users can access the login page from the homepage.
+    Verify that users can enter their credentials and log in successfully.
+    Verify that users are redirected to their account dashboard upon successful login.
+
+Registration
+
+    Verify that users can access the registration page from the homepage.
+    Verify that users can enter their details and register successfully.
+    Verify that users are redirected to their account dashboard upon successful registration.
+
+Add to Cart
+
+    Verify that users can add products to their cart from the product page.
+    Verify that the added products are displayed in the user's cart.
+    Verify that users can view and manage the contents of their cart.
+
+Checkout
+
+    Verify that users can click the "Checkout" button from their cart page.
+    Verify that users can enter their shipping and billing information.
+    Verify that users can choose a payment method and complete the transaction.
+    Verify that users receive a confirmation of their payment upon successful processing.
+
+Payment Gateway
+
+    Verify that users can choose from a list of supported payment methods during checkout.
+    Verify that users' payment information is securely transmitted to the payment gateway.
+    Verify that users receive a confirmation of their payment upon successful processing.
+
+Orders
+
+    Verify that users can access their order history from their account dashboard.
+    Verify that users can view details about their past orders.
