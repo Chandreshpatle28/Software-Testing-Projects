@@ -1,0 +1,142 @@
+Test Environment Document for E-commerce Project
+Project: OpenCart E-commerce Platform
+
+URL: OpenCart Demo
+1. Introduction
+
+The test environment is the setup in which the testing of the e-commerce platform will be performed. It includes hardware, software, and network configurations necessary to execute various test scenarios effectively. This document details the specific configurations required for the test environment for the OpenCart e-commerce project.
+2. Test Environment Components
+2.1 Hardware
+
+Computers:
+
+    Desktops/Laptops:
+        Windows 10/11 with at least 8GB RAM, Intel i5/i7 processors, and 256GB SSD.
+        macOS with at least 8GB RAM, Intel i5/i7 or M1/M2 processors, and 256GB SSD.
+
+Mobile Devices:
+
+    Android:
+        Various models with Android OS versions from 8.0 (Oreo) to the latest.
+    iOS:
+        Various models with iOS versions from 12 to the latest.
+
+Peripherals:
+
+    Printers, scanners, and other peripherals as needed.
+
+2.2 Software
+
+Operating Systems:
+
+    Windows:
+        Windows 10, Windows 11
+    Mac:
+        macOS Catalina, macOS Big Sur, macOS Monterey
+    Linux:
+        Ubuntu 20.04, Ubuntu 22.04
+
+Web Browsers:
+
+    Google Chrome (latest stable version)
+    Mozilla Firefox (latest stable version)
+    Safari (latest stable version for macOS and iOS)
+    Microsoft Edge (latest stable version)
+
+Testing Tools:
+
+    Selenium: For automated functional testing.
+    JMeter: For performance and load testing.
+    Bugzilla: For bug tracking and management.
+    Postman: For API testing.
+    Figma: For design mockups and UI/UX review.
+
+2.3 Network
+
+Internet Connectivity:
+
+    Stable internet connection with a minimum bandwidth of 100 Mbps.
+
+Firewall Settings:
+
+    Configured to allow testing activities without compromising security.
+    Appropriate rules set up to enable communication between the test environment and external services (e.g., payment gateways).
+
+Security Settings:
+
+    SSL certificates installed to ensure secure transactions during testing.
+    VPN access configured for remote testing teams if necessary.
+
+2.4 Data
+
+Test Data:
+
+    User Data: Sample user accounts with varying roles (admin, customer).
+    Product Data: Comprehensive catalog of products, including various categories, prices, and stock levels.
+    Order Data: Sample orders in different statuses (pending, processing, completed, canceled).
+    Payment Data: Test payment methods and fake credit card details for transaction testing.
+    Shipping Data: Sample addresses and shipping options.
+
+3. Test Environment Setup
+3.1 Configuration
+
+Development Environment:
+
+    URL: dev.opencart.com
+    Purpose: Initial testing of new features and bug fixes.
+
+Test Environment:
+
+    URL: test.opencart.com
+    Purpose: Comprehensive testing of integrated functionalities and user acceptance testing.
+
+Pre-Production Environment:
+
+    URL: preprod.opencart.com
+    Purpose: Final testing before production release, including performance and load testing.
+
+Production Environment:
+
+    URL: app.opencart.com
+    Purpose: Live environment for end-users.
+
+3.2 Access and Permissions
+
+User Roles:
+
+    Testers: Access to test and pre-production environments.
+    Developers: Access to development and test environments.
+    Stakeholders: Access to test environment for review and feedback.
+
+Security Protocols:
+
+    Secure login credentials for all environments.
+    Two-factor authentication (2FA) for critical access.
+
+4. Maintenance and Monitoring
+
+Environment Maintenance:
+
+    Regular updates and patches to operating systems and browsers.
+    Routine checks on hardware performance and availability.
+
+Monitoring:
+
+    Continuous monitoring of network performance and security.
+    Automated alerts for downtime or security breaches.
+
+5. Approval
+
+Sign-off:
+
+    Test environment setup and configuration must be approved by the test lead, development lead, and project manager before commencing testing.
+
+Reviewed and Approved by:
+
+    Test Lead: _______________________
+    Development Lead: _______________________
+    Project Manager: _______________________
+
+Conclusion
+
+This document outlines the required setup for the test environment of the OpenCart e-commerce project. Ensuring a proper test environment will help achieve accurate testing results, leading to a robust and reliable e-commerce platform.
