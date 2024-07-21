@@ -1,0 +1,229 @@
+Test Plan for OpenCart E-commerce Project
+1. Objective
+
+The objective of this test plan is to ensure that the OpenCart-based e-commerce platform meets all functional requirements, provides a user-friendly experience, is secure, and performs well under various load conditions.
+2. Scope
+
+The scope of this test plan includes the following areas:
+
+    Login and registration functionality
+    Add to cart and checkout functionality
+    Payment gateway functionality
+    Order management and fulfillment functionality
+    Performance testing of the platform
+
+3. Inclusions
+
+The following items are included in this test plan:
+
+    Test strategy document
+    Test cases document
+    Test execution report
+    Defect report
+    Performance test report
+
+4. Test Environments
+
+The following test environments will be used:
+
+    Development Environment
+    Test Environment
+    Production Environment
+
+Operating Systems and Browsers:
+
+    Windows 10 – Chrome, Firefox, and Edge
+    Mac OS – Safari Browser
+    Android Mobile OS – Chrome
+    iPhone Mobile OS – Safari
+
+Network Connectivity:
+
+    Wi-Fi
+    Cellular
+    Wired connections
+
+Security and Access:
+
+    Passwords
+    Tokens
+    Certificates
+
+5. Defect Reporting Procedure
+Defect Criteria:
+
+    Deviation from requirements
+    User experience issues
+    Technical errors
+
+Reporting Steps:
+
+    Use a designated template
+    Provide detailed reproduction steps
+    Attach screenshots or logs
+
+Triaging and Prioritization:
+
+    Assign severity and priority levels
+    Assign defects to appropriate team members
+
+Tools and Systems:
+
+    JIRA for tracking and managing defects
+
+Roles and Responsibilities:
+
+    Testers
+    Developers
+    Test Lead
+
+Communication Channels:
+
+    Email
+    Daily stand-up meetings
+
+Metrics:
+
+    Number of defects found
+    Time taken to resolve defects
+    Percentage of successfully fixed defects
+
+Defect Process:
+
+    POC: Devesh (Frontend)
+    Backend: Sonal
+    DevOps: Prajeeth
+
+6. Test Strategy
+Objectives:
+
+    Ensure functionality and performance of the platform
+    Verify security of sensitive customer information
+    Ensure a seamless user experience
+
+Test Levels:
+
+    Unit Testing: To test individual components
+    Integration Testing: To test combined components
+    System Testing: To test the complete system
+    Acceptance Testing: To ensure the system meets business requirements
+
+Test Types:
+
+    Functional Testing
+    Non-functional Testing
+    Regression Testing
+
+Test Techniques:
+
+    Black-box Testing
+    White-box Testing
+    Grey-box Testing
+
+Test Deliverables:
+
+    Test plans
+    Test cases
+    Test scripts
+    Test reports
+
+Test Environment:
+
+    Hardware, software, and network configurations required
+    Target browsers, devices, and operating systems
+
+Test Schedule:
+
+    Estimate of time needed for each phase
+    Resource availability
+    Dependencies and project deadlines
+
+Resource Allocation:
+
+    Team members' responsibilities
+
+Risk Management:
+
+    List of potential risks and contingency plans
+
+Test Exit Criteria:
+
+    Criteria that must be met before testing can be considered complete
+
+7. Test Schedule
+Task Timeline:
+
+    Creating Test Plan: Start Date - End Date
+    Test Case Creation: Start Date - End Date
+    Test Case Execution: Start Date - End Date
+    Summary Reports Submission: Date
+
+Sprint Planning:
+
+    2 sprints to test the application
+
+8. Test Deliverables
+
+    Test plans
+    Test cases
+    Test execution reports
+    Defect reports
+    Test summary reports
+
+9. Entry and Exit Criteria
+Entry Criteria:
+
+    Requirement Analysis:
+        Receive requirements documents or project details
+
+Exit Criteria:
+
+    Requirement Analysis:
+        Understand and explore requirements
+        Clear doubts
+
+Test Execution:
+
+    Entry Criteria:
+        Sign-off on test scenarios and test cases
+        Application is ready for testing
+
+    Exit Criteria:
+        Test case reports and defect reports are ready
+
+Test Closure:
+
+    Entry Criteria:
+        Test case reports and defect reports are ready
+
+    Exit Criteria:
+        Test summary reports
+
+10. Tools
+
+    JIRA: Bug tracking tool
+    Mind Map Tool
+    Snipping Tool: For screenshots
+    Microsoft Word and Excel: For documentation
+
+11. Risks and Mitigations
+
+    Risk: Non-availability of a resource
+        Mitigation: Backup resource planning
+    Risk: Build URL not working
+        Mitigation: Work on other tasks
+    Risk: Less time for testing
+        Mitigation: Ramp up resources dynamically
+
+12. Approvals
+
+    Documents for Approval:
+        Test Plan
+        Test Scenarios
+        Test Cases
+        Reports
+
+    Approval Process:
+        Testing will continue to the next steps only after approvals are done
+
+This test plan outlines the detailed approach for testing the OpenCart-based e-commerce platform, ensuring all stakeholders understand the objectives, scope, strategy, and processes involved in delivering a high-quality application.
